@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Product</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <button id="backtop">
+      <a href="#"><img src="images/body-backtop.svg" alt="" /></a>
+    </button>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="nav-container">
+            <div class="nav-logo-img">
+              <a href="index.html"><img src="images/navlogo.svg" alt="" /></a>
+              <h2>Product</h2>
+            </div>
+            <div class="nav-menus">
+              <ul>
+                <li><a href="index.html">Product</a></li>
+                <li>
+                  <a href="#">Customers</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Resources</a>
+                </li>
+              </ul>
+              <div class="nav-btns navbar-btn">
+                <a id="btndark" href="#">Sign In</a>
+                <a id="btndark" href="#">Sign Up</a>
+              </div>
+              <div class="darklight">
+                <button id="dark-light"><img src="images/dark.svg" alt="" /></button>
+              </div>
+            </div>
+            <button class="hamburger" onclick="openNavbar()">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div id="navbar-responsive">
+          <ul>
+            <li><a class="nav-menus-link" href="index.html">Product</a></li>
+            <li><a class="nav-menus-link" href="#">Customers</a></li>
+            <li><a class="nav-menus-link" href="#">Pricing</a></li>
+            <li><a class="nav-menus-link" href="#">Resources</a></li>
+            <li>
+              <a class="nav__responsive-btn" href="contact.html">Sign In</a>
+            </li>
+            <li>
+              <a class="nav__responsive-btn" href="contact.html">Sign Up</a>
+            </li>
+          </ul>
+          <button id="close-navbar" onclick="closeNavbar()">
+            <i class="close fa-sharp fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

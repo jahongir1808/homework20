@@ -1,0 +1,28 @@
+@mixin btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 100px;
+}
+
+@mixin responsivebtn {
+  display: block;
+  max-width: 100px;
+  margin-top: 39px;
+  width: 100%;
+  padding: 10px 19px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  background: #ffffff;
+  border-radius: 4px;
+  transition: 0.3s;
+}
